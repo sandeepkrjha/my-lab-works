@@ -105,7 +105,7 @@ void BFS(Graph* G, int s)
 	G->array[s].p=NIL;
 	Queue *Q;
 	Q=(Queue*)malloc(sizeof(Queue));
-	Q->length=MAX_SIZE - 1;
+	Q->length=MAX_SIZE ;
 	Q->head=Q->tail=0;
 	enqueue(Q,s);
 
